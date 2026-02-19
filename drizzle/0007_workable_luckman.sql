@@ -1,0 +1,83 @@
+CREATE TABLE `escrow_transactions` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`listing_id` integer NOT NULL,
+	`loi_id` integer,
+	`buyer_id` text NOT NULL,
+	`seller_id` text NOT NULL,
+	`status` text DEFAULT 'initiated' NOT NULL,
+	`escrow_amount` integer NOT NULL,
+	`escrow_provider` text,
+	`escrow_reference_id` text,
+	`initiated_at` integer,
+	`funded_at` integer,
+	`migration_started_at` integer,
+	`completed_at` integer,
+	`released_at` integer,
+	`webhook_secret` text,
+	`notes` text,
+	`created_at` integer NOT NULL,
+	`updated_at` integer NOT NULL,
+	FOREIGN KEY (`listing_id`) REFERENCES `listings`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`loi_id`) REFERENCES `loi_offers`(`id`) ON UPDATE no action ON DELETE set null,
+	FOREIGN KEY (`buyer_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`seller_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
+CREATE TABLE `loi_offers` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`listing_id` integer NOT NULL,
+	`buyer_id` text NOT NULL,
+	`seller_id` text NOT NULL,
+	`status` text DEFAULT 'draft' NOT NULL,
+	`offer_price` integer NOT NULL,
+	`cash_amount` integer NOT NULL,
+	`earnout_amount` integer NOT NULL,
+	`earnout_terms` text,
+	`due_diligence_days` integer NOT NULL,
+	`exclusivity_days` integer NOT NULL,
+	`conditions` text,
+	`expiration_date` integer NOT NULL,
+	`pdf_url` text,
+	`sent_at` integer,
+	`responded_at` integer,
+	`response_notes` text,
+	`created_at` integer NOT NULL,
+	`updated_at` integer NOT NULL,
+	FOREIGN KEY (`listing_id`) REFERENCES `listings`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`buyer_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`seller_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
+CREATE TABLE `migration_checklist_tasks` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`checklist_id` integer NOT NULL,
+	`task_name` text NOT NULL,
+	`task_category` text NOT NULL,
+	`task_description` text,
+	`status` text DEFAULT 'pending' NOT NULL,
+	`buyer_confirmed` integer DEFAULT false NOT NULL,
+	`seller_confirmed` integer DEFAULT false NOT NULL,
+	`buyer_confirmed_at` integer,
+	`seller_confirmed_at` integer,
+	`notes` text,
+	`completed_at` integer,
+	`created_at` integer NOT NULL,
+	`updated_at` integer NOT NULL,
+	FOREIGN KEY (`checklist_id`) REFERENCES `migration_checklists`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
+CREATE TABLE `migration_checklists` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`escrow_id` integer NOT NULL,
+	`listing_id` integer NOT NULL,
+	`buyer_id` text NOT NULL,
+	`seller_id` text NOT NULL,
+	`status` text DEFAULT 'in_progress' NOT NULL,
+	`completed_at` integer,
+	`created_at` integer NOT NULL,
+	`updated_at` integer NOT NULL,
+	FOREIGN KEY (`escrow_id`) REFERENCES `escrow_transactions`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`listing_id`) REFERENCES `listings`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`buyer_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade,
+	FOREIGN KEY (`seller_id`) REFERENCES `user`(`id`) ON UPDATE no action ON DELETE cascade
+);

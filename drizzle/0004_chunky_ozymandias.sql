@@ -1,0 +1,1 @@
+ALTER TABLE `saved_searches` ADD `email_alerts_enabled` integer DEFAULT true NOT NULL;

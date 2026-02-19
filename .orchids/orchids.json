@@ -1,0 +1,15 @@
+{
+  "projectId": "b0c6a439-7565-478d-a477-073be722c2fa",
+<<<<<<< Updated upstream
+  "createdAt": 1765299159141,
+  "version": "1.0",
+  "startupCommands": [
+    "bun install && bun run dev"
+=======
+  "createdAt": 1769266860558,
+  "version": "1.0",
+  "startupCommands": [
+    "bun install; bun run dev"
+>>>>>>> Stashed changes
+  ]
+}

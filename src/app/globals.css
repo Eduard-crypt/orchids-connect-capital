@@ -1,0 +1,534 @@
+<<<<<<< Updated upstream
+/* Updated: 2025-12-25T14:54:05.698Z */
+/* Updated: 2025-12-25T14:54:05.515Z */
+/* Updated: 2025-12-23T08:02:31.402Z */
+/* Updated: 2025-12-22T21:45:01.862Z */
+/* Updated: 2025-12-22T14:32:37.684Z */
+/* Updated: 2025-12-22T14:29:42.459Z */
+/* Updated: 2025-12-21T13:32:03.068Z */
+/* Updated: 2025-12-20T11:57:36.503Z */
+/* Updated: 2025-12-19T18:50:26.022Z */
+/* Updated: 2025-12-19T18:38:58.290Z */
+/* Updated: 2025-12-19T18:19:45.748Z */
+/* Updated: 2025-12-19T11:22:48.351Z */
+/* Updated: 2025-12-19T10:53:40.280Z */
+/* Updated: 2025-12-18T13:48:29.069Z */
+/* Updated: 2025-12-18T09:00:16.532Z */
+/* Updated: 2025-12-17T09:37:55.305Z */
+/* Updated: 2025-12-16T19:59:01.709Z */
+/* Updated: 2025-12-16T17:31:04.300Z */
+/* Updated: 2025-12-16T13:35:44.891Z */
+/* Updated: 2025-12-16T13:29:17.834Z */
+/* Updated: 2025-12-16T09:17:19.323Z */
+/* Updated: 2025-12-16T09:12:48.919Z */
+/* Updated: 2025-12-15T18:50:49.792Z */
+/* Updated: 2025-12-15T13:46:54.696Z */
+/* Updated: 2025-12-15T12:48:43.283Z */
+/* Updated: 2025-12-15T12:38:02.590Z */
+/* Updated: 2025-12-14T11:58:40.229Z */
+/* Updated: 2025-12-14T11:56:43.670Z */
+/* Updated: 2025-12-14T11:27:21.958Z */
+/* Updated: 2025-12-14T10:40:58.236Z */
+/* Updated: 2025-12-13T21:33:12.001Z */
+/* Updated: 2025-12-13T19:48:12.534Z */
+/* Updated: 2025-12-13T19:28:07.974Z */
+/* Updated: 2025-12-13T19:18:26.958Z */
+/* Updated: 2025-12-13T18:30:55.219Z */
+/* Updated: 2025-12-13T18:28:34.785Z */
+/* Updated: 2025-12-13T18:21:23.343Z */
+/* Updated: 2025-12-13T17:37:33.086Z */
+/* Updated: 2025-12-13T13:23:54.220Z */
+/* Updated: 2025-12-13T10:20:01.752Z */
+/* Updated: 2025-12-13T10:19:14.241Z */
+/* Updated: 2025-12-12T15:17:37.460Z */
+/* Updated: 2025-12-12T12:48:39.803Z */
+/* Updated: 2025-12-12T10:58:55.210Z */
+/* Updated: 2025-12-12T09:00:35.349Z */
+/* Updated: 2025-12-12T09:00:21.951Z */
+/* Updated: 2025-12-11T20:13:56.354Z */
+/* Updated: 2025-12-11T20:12:54.914Z */
+/* Updated: 2025-12-11T20:12:51.351Z */
+/* Updated: 2025-12-11T08:46:02.995Z */
+/* Updated: 2025-12-10T20:40:32.460Z */
+/* Updated: 2025-12-10T12:18:26.951Z */
+/* Updated: 2025-12-10T12:16:57.890Z */
+/* Updated: 2025-12-09T21:03:46.972Z */
+/* Updated: 2025-12-09T20:58:56.851Z */
+/* Updated: 2025-12-09T17:37:40.583Z */
+/* Updated: 2025-12-09T17:01:11.048Z */
+/* Updated: 2025-12-09T16:53:07.782Z */
+/* Updated: 2025-12-08T19:10:05.766Z */
+/* Updated: 2025-12-08T12:24:26.152Z */
+/* Updated: 2025-12-08T11:36:48.257Z */
+/* Updated: 2025-12-08T10:59:46.940Z */
+/* Updated: 2025-12-08T10:56:08.825Z */
+/* Updated: 2025-12-08T08:42:25.405Z */
+/* Updated: 2025-12-07T23:14:09.462Z */
+/* Updated: 2025-12-07T23:05:22.301Z */
+/* Updated: 2025-12-07T22:50:49.244Z */
+/* Updated: 2025-12-07T16:42:18.889Z */
+/* Updated: 2025-12-07T15:58:25.319Z */
+/* Updated: 2025-12-07T14:21:23.987Z */
+/* Updated: 2025-12-07T12:29:09.473Z */
+/* Updated: 2025-12-06T17:52:33.842Z */
+/* Updated: 2025-12-04T10:10:34.487Z */
+/* Updated: 2025-12-03T08:21:04.781Z */
+/* Updated: 2025-12-02T12:15:40.557Z */
+/* Updated: 2025-12-02T12:07:13.816Z */
+/* Updated: 2025-12-02T11:00:38.477Z */
+/* Updated: 2025-12-02T10:01:50.166Z */
+/* Updated: 2025-11-30T15:24:39.009Z */
+/* Updated: 2025-11-30T14:39:40.086Z */
+/* Updated: 2025-11-29T14:58:39.233Z */
+/* Updated: 2025-11-29T13:07:07.739Z */
+/* Updated: 2025-11-29T08:27:20.688Z */
+/* Updated: 2025-11-29T08:05:57.596Z */
+/* Updated: 2025-11-28T19:20:08.785Z */
+/* Updated: 2025-11-28T11:40:32.580Z */
+/* Updated: 2025-11-28T11:39:43.890Z */
+/* Updated: 2025-11-27T18:28:07.424Z */
+/* Updated: 2025-11-27T12:55:01.844Z */
+/* Updated: 2025-11-27T12:18:47.854Z */
+/* Updated: 2025-11-27T07:57:51.405Z */
+/* Updated: 2025-11-27T07:42:37.121Z */
+/* Updated: 2025-11-27T00:00:32.817Z */
+/* Updated: 2025-11-26T23:13:46.525Z */
+/* Updated: 2025-11-26T23:01:11.072Z */
+/* Updated: 2025-11-26T22:00:55.917Z */
+/* Updated: 2025-11-26T21:47:21.204Z */
+/* Updated: 2025-11-26T21:44:31.065Z */
+/* Updated: 2025-11-26T19:16:25.934Z */
+/* Updated: 2025-11-26T17:25:41.909Z */
+/* Updated: 2025-11-26T16:50:34.523Z */
+/* Updated: 2025-11-26T16:14:09.609Z */
+/* Updated: 2025-11-26T15:20:55.959Z */
+/* Updated: 2025-11-26T15:07:24.851Z */
+/* Updated: 2025-11-26T14:18:34.398Z */
+/* Updated: 2025-11-26T13:05:02.634Z */
+/* Updated: 2025-11-26T09:36:15.960Z */
+/* Updated: 2025-11-25T10:22:10.387Z */
+/* Updated: 2025-11-24T16:27:55.494Z */
+/* Updated: 2025-11-24T06:12:56.809Z */
+/* Updated: 2025-11-23T12:17:32.676Z */
+/* Updated: 2025-11-22T11:45:28.041Z */
+/* Updated: 2025-11-22T11:42:23.444Z */
+/* Updated: 2025-11-05T06:16:50.738Z */
+/* Updated: 2025-11-04T20:33:41.911Z */
+/* Updated: 2025-11-04T15:49:59.580Z */
+/* Updated: 2025-11-04T08:05:28.804Z */
+/* Updated: 2025-11-04T08:00:28.579Z */
+/* Updated: 2025-11-04T06:57:33.483Z */
+/* Updated: 2025-11-03T11:43:18.261Z */
+/* Updated: 2025-11-03T11:40:36.916Z */
+/* Updated: 2025-11-03T11:20:35.256Z */
+/* Updated: 2025-10-31T18:13:02.916Z */
+/* Updated: 2025-10-31T18:12:50.224Z */
+/* Updated: 2025-10-31T16:52:31.693Z */
+/* Updated: 2025-10-30T19:48:46.131Z */
+/* Updated: 2025-10-28T19:47:32.894Z */
+/* Updated: 2025-10-28T19:41:56.461Z */
+/* Updated: 2025-10-27T13:25:16.362Z */
+/* Updated: 2025-10-24T20:40:13.351Z */
+/* Updated: 2025-10-24T19:59:01.633Z */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: #F2F4F7; /* neutral background */
+  --color-foreground: #4A4A4A; /* text */
+
+  --color-card: #FFFFFF; /* light card */
+  --color-card-foreground: #4A4A4A;
+
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #4A4A4A;
+
+  --color-primary: #1A3E6D; /* dark blue - primary */
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #3F5F8B; /* blue-gray - secondary */
+  --color-secondary-foreground: #FFFFFF;
+
+  --color-muted: #E8EEF5; /* gentle muted */
+  --color-muted-foreground: #6B7280;
+
+  --color-accent: #F18F01; /* warm orange - accent */
+  --color-accent-foreground: #1A1A1A;
+
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #fafafa;
+
+  --color-border: #D6DEE8; /* light border */
+  --color-input: #D6DEE8;
+  --color-ring: #F18F01;
+
+  --color-graphite: #1A3E6D; /* map to primary for legacy usage */
+  --color-anthracite: #3F5F8B; /* map to secondary */
+  --color-teal: #1A3E6D; /* link color uses this var */
+  --color-neutral-gray: #8F9BAA;
+
+  --color-chart-1: #1A3E6D;
+  --color-chart-2: #3F5F8B;
+  --color-chart-3: #F18F01;
+  --color-chart-4: #4A4A4A;
+  --color-chart-5: #D6DEE8;
+
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+  --radius-sm: 0.5rem;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+    @keyframes accordion-up {
+      from {
+        height: var(--radix-accordion-content-height);
+      }
+      to {
+        height: 0;
+      }
+    }
+
+    @keyframes shimmer {
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    --animate-shimmer: shimmer 1.5s infinite;
+  
+    --font-body: "Poppins", "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border);
+  }
+}
+
+@layer utilities {
+  body {
+    font-family: var(--font-body);
+  }
+}
+
+@layer base {
+    :root {
+      --background: #F2F4F7;
+      --foreground: #4A4A4A;
+      --card: #FFFFFF;
+      --card-foreground: #4A4A4A;
+      --popover: #FFFFFF;
+      --popover-foreground: #4A4A4A;
+      --primary: #1A3E6D;
+      --primary-rgb: 26, 62, 109;
+      --primary-foreground: #FFFFFF;
+      --secondary: #3F5F8B;
+      --secondary-foreground: #FFFFFF;
+      --muted: #E8EEF5;
+      --muted-foreground: #6B7280;
+      --accent: #F18F01;
+      --accent-foreground: #1A1A1A;
+      --destructive: #ef4444;
+      --destructive-foreground: #fafafa;
+      --border: #D6DEE8;
+      --input: #D6DEE8;
+      --ring: #F18F01;
+      --graphite: #1A3E6D;
+      --anthracite: #3F5F8B;
+      --teal: #1A3E6D; /* keep var name for compatibility */
+      --neutral-gray: #8F9BAA;
+      --radius: 1rem;
+    }
+
+    .animate-gradient {
+      background-size: 200% auto;
+      animation: gradient 3s linear infinite;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+  .dark {
+    --background: #0F223D; /* darkened primary */
+    --foreground: #F2F4F7;
+    --card: #142B4C;
+    --card-foreground: #F2F4F7;
+    --popover: #142B4C;
+    --popover-foreground: #F2F4F7;
+    --primary: #1A3E6D;
+    --primary-foreground: #FFFFFF;
+    --secondary: #3F5F8B;
+    --secondary-foreground: #FFFFFF;
+    --muted: #1E3A5C;
+    --muted-foreground: #A3B1C6;
+    --accent: #F18F01;
+    --accent-foreground: #1A1A1A;
+    --border: #1F3A5C;
+    --input: #1F3A5C;
+    --ring: #F18F01;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  a {
+    color: var(--color-teal);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  a:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+
+  .btn-hover-effect {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px -5px rgba(241, 143, 1, 0.40), 0 8px 10px -6px rgba(241, 143, 1, 0.30);
+  }
+
+  .gradient-teal-graphite {
+    background: linear-gradient(135deg, #1A3E6D 0%, #3F5F8B 100%);
+  }
+
+  .gradient-subtle {
+    background: linear-gradient(135deg, rgba(241, 143, 1, 0.12) 0%, rgba(26, 62, 109, 0.06) 100%);
+  }
+
+  .text-sm {
+    font-size: 14px;
+  }
+
+  .text-base {
+    font-size: 16px;
+  }
+
+  .font-normal {
+    font-weight: 400;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .font-semibold {
+    font-weight: 600;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+    
+    h2 {
+      font-size: 28px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+/* Hide Next.js error overlay portal */
+nextjs-portal {
+  display: none !important;
+}
+=======
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+>>>>>>> Stashed changes
