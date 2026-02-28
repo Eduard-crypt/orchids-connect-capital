@@ -136,15 +136,22 @@ export default function SellABusinessPage() {
               variants={fadeInUp}
             >
               <Badge className="mb-6 px-4 py-1 bg-primary/5 text-primary border-primary/10 text-sm font-semibold tracking-wider uppercase">Institutional Trust</Badge>
-              <h2 className="text-4xl md:text-6xl font-bold mb-8 tracking-tight text-slate-900">
-                The TrustBridge <br />
-                <span className="text-primary italic">Security Protocol</span>
-              </h2>
-                <p className="text-xl text-slate-600 mb-10 leading-relaxed font-light max-w-2xl">
-                  Selling a business requires a high level of security in managing funds and transferring assets. Our strategy ensures that all payments and legal actions are carried out through licensed banks and notaries acting as independent third parties, providing transparency, capital protection, and legal certainty for both the buyer and the seller.
-                </p>
+                <h2 className="text-4xl md:text-6xl font-bold mb-8 tracking-tight text-slate-900">
+                  The TrustBridge <br />
+                  <span className="text-primary italic">Security Protocol</span>
+                </h2>
+                  <p className="text-xl text-slate-600 mb-10 leading-relaxed font-light max-w-2xl">
+                    Selling a business requires a high level of security in managing funds and transferring assets. Our strategy ensures that all payments and legal actions are carried out through licensed banks and notaries acting as independent third parties, providing transparency, capital protection, and legal certainty for both the buyer and the seller.
+                  </p>
 
-                <div className="grid sm:grid-cols-2 gap-8">
+                  <div className="mb-12">
+                    <Button asChild size="lg" className="px-10 py-6 text-lg font-bold uppercase tracking-wider bg-primary hover:bg-primary/90 text-white rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all active:scale-95">
+                      <Link href="/trustbridge">EXPLORE TRUSTBRIDGE SECURITY</Link>
+                    </Button>
+                  </div>
+
+                  <div className="grid sm:grid-cols-2 gap-8">
+
                   {[
                         {
                           title: 'TrustBridge Membership',
@@ -200,15 +207,10 @@ export default function SellABusinessPage() {
                         <div className="text-sm font-bold uppercase tracking-wider text-slate-400">Security Status</div>
                         <div className="text-lg font-bold text-slate-900">Protocol Active (Tier 1)</div>
                       </div>
-                    </div>
+                      </div>
 
-                    <div className="pt-2">
-                      <Button asChild size="lg" className="w-full px-8 py-6 text-lg font-bold uppercase tracking-wider bg-primary hover:bg-primary/90 text-white rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all active:scale-95">
-                        <Link href="/trustbridge">EXPLORE TRUSTBRIDGE MEMBERSHIPS</Link>
-                      </Button>
-                    </div>
+                      <div className="space-y-4">
 
-                    <div className="space-y-4">
                       <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
                         <motion.div 
                           className="h-full bg-primary"

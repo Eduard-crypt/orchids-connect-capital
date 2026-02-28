@@ -2,6 +2,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = componentTagger;
+module.exports = componentTagger;
+module.exports.default = componentTagger;
 const parser_1 = require("@babel/parser");
 const magic_string_1 = require("magic-string");
 const estree_walker_1 = require("estree-walker");

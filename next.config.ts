@@ -17,15 +17,6 @@ const nextConfig: NextConfig = {
     ],
   },
   outputFileTracingRoot: path.resolve(__dirname, '../../'),
-<<<<<<< Updated upstream
-=======
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
->>>>>>> Stashed changes
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
@@ -36,7 +27,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-<<<<<<< Updated upstream
-// Orchids restart: 1769102136674
-=======
->>>>>>> Stashed changes
+// Orchids restart: 1772271997674
